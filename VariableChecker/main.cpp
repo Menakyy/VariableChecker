@@ -13,13 +13,23 @@ int main()
 	char znak;
 	string napis;
 
+	//do
+	//{
+	//	cout << "Liczba: ";
+	//	cin >> liczba;
+	//} while (!vc.isNumber(liczba));
+
+	//do
+	//{
+	//	cout << "Znak: ";
+	//	cin >> znak;
+	//} while (!vc.isCorrectChar(znak,'a'));
+
 	do
 	{
-		cout << "Liczba: ";
-		cin >> liczba;
-	} while (!vc.isNumber(liczba););
-
-
+		cout << "Napis: ";
+		cin >> napis;
+	} while (!vc.isTheSameString(napis, "asd"));
 
 
 	return 0;

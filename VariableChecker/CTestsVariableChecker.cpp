@@ -19,6 +19,7 @@ void CTestVariableChecker::RunAllTests()
 	TestIsNumber();
 	TestIsCorrectChar();
 	TestIsTheSameString();
+	TestIsNumberFromRange();
 }
 
 void CTestVariableChecker::TestIsNumber()
@@ -37,4 +38,10 @@ void CTestVariableChecker::TestIsTheSameString()
 {
 	bool result = vc.isTheSameString("asd","asd");
 	PrintResults("TestIsCorrectChar", result);
+}
+
+void CTestVariableChecker::TestIsNumberFromRange()
+{
+	bool result = vc.isNumberFromRange(5, 1, 10);
+	PrintResults("TestIsNumberFromRange", result);
 }

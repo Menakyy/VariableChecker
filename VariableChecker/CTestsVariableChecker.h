@@ -12,4 +12,5 @@ public:
 	void TestIsNumber();
 	void TestIsCorrectChar();
 	void TestIsTheSameString();
+	void TestIsNumberFromRange();
 };

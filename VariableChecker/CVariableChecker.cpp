@@ -38,3 +38,13 @@ bool CVariableChecker::isTheSameString(std::string written, std::string expected
 
 	return true;
 }
+
+bool CVariableChecker::isNumberFromRange(int number, int start_range, int end_range)
+{
+	if (number >= start_range && number <= end_range)
+	{
+		return true;
+	}
+
+	return false;
+}

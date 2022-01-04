@@ -21,9 +21,15 @@
     <ClCompile Include="CVariableChecker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CTestsVariableChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CVariableChecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTestsVariableChecker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

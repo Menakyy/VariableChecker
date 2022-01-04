@@ -3,7 +3,7 @@
 
 using namespace std;
 
-bool CVariableChecker::isNumber(int liczba)
+bool CVariableChecker::isNumber(int number)
 {
 	if (cin.rdstate())
 	{
@@ -15,9 +15,9 @@ bool CVariableChecker::isNumber(int liczba)
 	return true;
 }
 
-bool CVariableChecker::isCorrectChar(char wpisany, char oczekiwany)
+bool CVariableChecker::isCorrectChar(char written, char expected)
 {
-	if (wpisany != oczekiwany)
+	if (written != expected)
 	{
 		cin.clear();
 		cin.ignore(250, '\n');
@@ -27,9 +27,9 @@ bool CVariableChecker::isCorrectChar(char wpisany, char oczekiwany)
 	return true;
 }
 
-bool CVariableChecker::isTheSameString(std::string wpisany, std::string oczekiwany)
+bool CVariableChecker::isTheSameString(std::string written, std::string expected)
 {
-	if (wpisany.compare(oczekiwany) != 0)
+	if (written.compare(expected) != 0)
 	{
 		cin.clear();
 		cin.ignore(250, '\n');

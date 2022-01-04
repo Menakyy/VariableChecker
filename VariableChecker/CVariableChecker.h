@@ -8,7 +8,7 @@ class CVariableChecker
 
 public:
 
-	bool isNumber(int liczba);
-	bool isCorrectChar(char wpisany, char oczekiwany);
-	bool isTheSameString(std::string wpisany, std::string oczekiwany);
+	bool isNumber(int number);
+	bool isCorrectChar(char written, char expected);
+	bool isTheSameString(std::string written, std::string expected);
 };
